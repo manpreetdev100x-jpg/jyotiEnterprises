@@ -24,7 +24,7 @@ export default function App() {
         {/* Document Title */}
         <div style={{ textAlign: 'center', marginBottom: '30px', borderBottom: '2px solid #111827', paddingBottom: '20px' }}>
           <p style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1px', color: '#6b7280', margin: '0 0 6px 0' }}>Government / Official Record</p>
-          <h1 style={{ fontSize: isMobile ? '20px' : '24px', fontWeight: 'bold', margin: 0, color: '#111827' }}>Project Detail Showcase</h1>
+          <h1 style={{ fontSize: isMobile ? '20px' : '24px', fontWeight: 'bold', margin: 0, color: '#111827', fontFamily:"monospace" }}>Project Detail Showcase</h1>
         </div>
 
         {/* Document Details List */}
