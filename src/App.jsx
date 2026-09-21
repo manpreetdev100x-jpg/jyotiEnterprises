@@ -19,15 +19,7 @@ export default function App() {
     <div style={{ minHeight: '100vh', backgroundColor: '#ffffff', color: '#111827', fontFamily: 'Arial, sans-serif', padding: isMobile ? '16px' : '40px 20px' }}>
       <div style={{ maxWidth: '800px', margin: '0 auto', border: isMobile ? 'none' : '1px solid #e5e7eb', padding: isMobile ? '16px' : '40px', borderRadius: '8px', boxShadow: isMobile ? 'none' : '0 4px 6px -1px rgba(0, 0, 0, 0.05)' }}>
         
-        {/* Header Actions */}
-        <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '10px', marginBottom: '30px' }}>
-          <button 
-            onClick={handlePrint}
-            style={{ padding: '8px 16px', backgroundColor: '#2563eb', color: '#ffffff', border: 'none', borderRadius: '4px', cursor: 'pointer', fontSize: '14px', fontWeight: '500' }}
-          >
-            Print / Save PDF
-          </button>
-        </div>
+       
 
         {/* Document Title */}
         <div style={{ textAlign: 'center', marginBottom: '30px', borderBottom: '2px solid #111827', paddingBottom: '20px' }}>
