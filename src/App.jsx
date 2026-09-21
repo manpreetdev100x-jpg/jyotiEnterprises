@@ -62,7 +62,7 @@ export default function App() {
 
           <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
             <div style={{ width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151' }}>Defect liability period</div>
-            <div style={{ flex: 1, color: '#111827' }}>08/09/2028</div>
+            <div style={{ flex: 1, color: '#111827' }}>09/09/2028</div>
           </div>
 
           <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
