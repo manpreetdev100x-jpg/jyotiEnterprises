@@ -51,7 +51,7 @@ export default function App() {
 
             <tr style={{ display: isMobile ? 'block' : 'table-row', borderBottom: '1px solid #f3f4f6', paddingBottom: isMobile ? '12px' : '0' }}>
               <th style={{ display: isMobile ? 'block' : 'table-cell', width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151', textAlign: 'left', paddingBottom: '12px', verticalAlign: 'top', marginBottom: isMobile ? '4px' : '0' }}>Executing agency</th>
-              <td style={{ fontWeight: '600',display: isMobile ? 'block' : 'table-cell', color: '#111827', textAlign: 'left', paddingBottom: '12px', verticalAlign: 'top' }}>Military Engineering Services, GE Samba</td>
+              <td style={{ fontWeight: '600',display: isMobile ? 'block' : 'table-cell', color: '#111827', textAlign: 'left', paddingBottom: '12px', verticalAlign: 'top' }}>Military Engineer Services, GE Samba</td>
             </tr>
 
             <tr style={{ display: isMobile ? 'block' : 'table-row', borderBottom: '1px solid #f3f4f6', paddingBottom: isMobile ? '12px' : '0' }}>
