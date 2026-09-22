@@ -80,11 +80,65 @@ export default function App() {
             </div>
           </div>
 
+          {/* more fields */}
+
+          <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
+            <div style={{ width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151' }}>Name of Chief Engineer
+             
+            </div>
+            <div style={{ flex: 1, color: '#111827' }}>
+              <div style={{ fontWeight: '600', marginBottom: '4px' }}>Sh Rajneesh Chandra, IDSE</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>Chief Engineer</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>HQ CE Pathankot Zone</div>
+
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
+            <div style={{ width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151' }}>Name of Commander Worker Engineer
+             
+            </div>
+            <div style={{ flex: 1, color: '#111827' }}>
+              <div style={{ fontWeight: '600', marginBottom: '4px' }}>Sh Ajay Kumar Mishra, IDSE</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>SE (SAG)</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>HQ CWE Mamun</div>
+
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
+            <div style={{ width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151' }}>Name of Garrison Engineer 
+             
+            </div>
+            <div style={{ flex: 1, color: '#111827' }}>
+              <div style={{ fontWeight: '600', marginBottom: '4px' }}>Sh Rajeev Kumar</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>EE</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>GE Samba</div>
+
+            </div>
+          </div>
+
+          <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', borderBottom: '1px solid #f3f4f6', paddingBottom: '12px', gap: isMobile ? '4px' : '0' }}>
+            <div style={{ width: isMobile ? '100%' : '240px', fontWeight: '600', color: '#374151' }}>Name of Engineer-in-Charge
+             
+            </div>
+            <div style={{ flex: 1, color: '#111827' }}>
+              <div style={{ fontWeight: '600', marginBottom: '4px' }}>Sh Sarvesh Kumar Saini</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>AE (E/M)</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>AGE (E/M) Samba</div>
+              <br/>
+              <div style={{ fontWeight: '600', marginBottom: '4px' }}>Sh Chandrakant R Shionkar</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>AE (Civ)</div>
+              <div style={{ fontSize: '13px', color: '#4b5563' }}>AGE (B/R) Samba</div>
+
+            </div>
+          </div>
+
         </div>
 
         {/* Footer */}
         <div style={{ marginTop: '40px', borderTop: '1px solid #e5e7eb', paddingTop: '20px', textAlign: 'center', fontSize: '12px', color: '#9ca3af' }}>
-          <p style={{ margin: '0 0 4px 0' }}>Military Engineering Services (MES) • Project Showcase Document</p>
+          <p style={{ margin: '0 0 4px 0' }}>Military Engineer Services (MES) • Project Showcase Document</p>
           <p style={{ margin: 0 }}>Contract Agreement No: CEPZ-15/2025-2026</p>
         </div>
 
