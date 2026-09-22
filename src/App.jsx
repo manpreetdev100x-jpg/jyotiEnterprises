@@ -42,7 +42,7 @@ export default function App() {
             <tr style={{ borderBottom: '1px solid #f3f4f6' }}>
               <th style={{ display: 'table-cell', width: '140px', textDecoration: 'underline', fontWeight: '600', color: '#374151', textAlign: 'left', padding: '10px 8px 10px 0', verticalAlign: 'top' }}>Executing agency</th>
               <td style={{ display: 'table-cell', color: '#111827', textAlign: 'left', padding: '10px 0 10px 8px', verticalAlign: 'top' }}>
-                <div style={{ marginBottom: '10px' }}>Military Engineer Services</div>
+                <div style={{ marginBottom: '10px', fontWeight: "600" }}>Military Engineer Services</div>
 
                 <div style={{ marginBottom: '12px' }}>
                   <div style={{ fontWeight: '600', marginBottom: '2px' }}>1) Sh Rajneesh Chandra, IDSE</div>
